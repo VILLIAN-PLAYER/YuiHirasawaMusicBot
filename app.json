@@ -1,7 +1,7 @@
 {
-  "name": "YuiHirasawaMusicBot",
+  "name": "Shraddhamusicbot",
   "logo": "https://telegra.ph/file/d378fd2a9c7109abc0e49.jpg",
-  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by MARSHALX TGCALLS.",
+  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by Xd Comunity.",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/Yeagerist-Music-Streamer-Bot-V3/YuiHirasawaMusicBot",
   "buildpacks": [
@@ -13,24 +13,25 @@
    }   
   ],        
   "env": {
-    "SESSION_NAME": {
+    "SESSION_NAME": {Pyrogram Session string}
       "description": "Pyrogram session string",
       "required": true
     },
-    "BOT_TOKEN": {
+    "BOT_TOKEN": {6296003011:AAHpreIFG1Utex7AccFheg1Hc-F3HT-FD48}
+    
       "description": "A bot token from @BotFather",
       "required": true
     },
-    "BOT_USERNAME": {
+    "BOT_USERNAME": {Shraddhamusic_bot}
       "description": "Your bot's username without @",
       "required": true
     },
-    "BOT_NAME": {
+    "BOT_NAME": {Shraddhamusicbot}
       "description": "Your MusicPlayer Bot Name.",
       "required": false,
       "value": ""
     },
-    "SUPPORT_GROUP": {
+    "SUPPORT_GROUP": {XD_COMUNITY}
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
       "value": "Yeageristbots"
@@ -40,11 +41,11 @@
       "required": false,
       "value": "YuiHirasawaMusicBot v5"
     },
-    "ASSISTANT_NAME": {
+    "ASSISTANT_NAME": {Shradhhabotasistant}
       "description": "Your MusicPlayer's assistant Username without @.",
       "required": true
     },
-    "ARQ_API_KEY": {
+    "ARQ_API_KEY": {GHPOLR-PVFMAX-WNTDBQ-CIDYYG-ARQ}
       "description": "Get from @ARQRobot.",
       "required": false,
       "value": ""
@@ -54,12 +55,12 @@
       "required": false,
       "value": "  https://telegra.ph/file/8a4928725cbc36a0f703b.jpg"
     },     
-    "UPDATES_CHANNEL": {
+    "UPDATES_CHANNEL": {XDBOT_UPDATES}
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
       "value": "Animemusicarchive6"
     },    
-    "API_ID": {
+    "API_ID": {24044242}
       "description": "App ID from my.telegram.org/apps",
       "required": true
     },
@@ -68,15 +69,15 @@
       "required": false,
       "value": "ENABLE"
     },    
-    "API_HASH": {
+    "API_HASH": {38f65ff90865faaf9a2301a62ee8e642}
       "description": "App hash from my.telegram.org/apps",
       "required": true
     },
-    "SUDO_USERS": {
+    "SUDO_USERS": {XD_DEVU}
       "description": "List of user IDs counted as admin everywhere (separated by space).",
       "required": true
     },
-    "DURATION_LIMIT": {
+    "DURATION_LIMIT": {400}
       "description": "Max audio duration limit for downloads (minutes).",
       "required": true,
       "value": "400"
